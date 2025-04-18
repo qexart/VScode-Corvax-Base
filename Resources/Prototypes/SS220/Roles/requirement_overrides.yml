@@ -1,3 +1,7 @@
-- !type:DepartmentTimeRequirement
+- type: jobRequirementOverride
+  id: Reduced
+  jobs:
+    Captain:
+    - !type:DepartmentTimeRequirement
       department: Juridical
       time: 3600 # 1 hour
