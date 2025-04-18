@@ -1,0 +1,11 @@
+- type: playTimeTracker
+  id: Blueshield
+
+- type: playTimeTracker
+  id: NanotrasenRepresentive
+
+- type: playTimeTracker
+  id: Magistrat
+
+- type: playTimeTracker
+  id: Pathologist

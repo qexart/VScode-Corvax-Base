@@ -1,0 +1,60 @@
+- type: entity
+  parent: BasePDA
+  id: MagistratPDA
+  name: КПК магистрата
+  suffix: Magistrat
+  description: Изможденный временем, влагает в себя аромат закона и судебной власти.
+  components:
+  - type: Pda
+    id: MagistratIDCard
+    state: pda-magistrat
+    penSlot:
+      startingItem: LuxuryPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#6f6192"
+    accentVColor: "#DFDFDF"
+  - type: Icon
+    state: pda-magistrat
+
+- type: entity
+  parent: BasePDA
+  id: NanotrasenRepresentivePDA
+  name: КПК представителя NanoTrasen
+  suffix: Nanotrasen Representive
+  description: Представляет вашу идею.
+  components:
+  - type: Pda
+    id: NanotrasenRepresentiveIDCard
+    state: pda-ntr
+  - type: Icon
+    state: pda-ntr
+
+- type: entity
+  parent: BasePDA
+  id: BlueshieldPDA
+  name: КПК офицера "Синий Щит"
+  suffix: Blueshield
+  description: Почему он не синий?
+  components:
+  - type: Pda
+    id: BlueshieldIDCard
+    state: pda-bs
+  - type: Icon
+    state: pda-bs
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: PathologistPDA
+  name: КПК патологоанатома
+  suffix: Pathologist
+  description: А сколько ты, открыл "подарков" сегодня?
+  components:
+  - type: Pda
+    id: PathologistIDCard
+    state: pda-patologoanatom
+  - type: Icon
+    state: pda-patologoanatom

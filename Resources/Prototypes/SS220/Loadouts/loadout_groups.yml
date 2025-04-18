@@ -1,0 +1,77 @@
+- type: loadoutGroup
+  id: BlueshieldShoes
+  name: Синий Щит, Обувь
+  minLimit: 0
+  loadouts:
+  - BlueshieldShoes
+  - BlueshieldShoesCombat
+
+- type: loadoutGroup
+  id: BlueshieldNeck
+  name: Синий Щит, Шея
+  minLimit: 0
+  loadouts:
+  - BlueshieldNeck
+
+- type: loadoutGroup
+  id: BlueshieldHead
+  name: Синий Щит, Голова
+  minLimit: 0
+  loadouts:
+  - BlueshieldHead
+
+- type: loadoutGroup
+  id: BlueshieldBackpack
+  name: Синий Щит, Рюкзак
+  minLimit: 0
+  loadouts:
+  - BlueshieldBackpack
+  - BlueshieldSatchel
+  - BlueshieldDuffel
+
+- type: loadoutGroup
+  id: NTR-Head
+  name: ПНТ, Голова
+  minLimit: 0
+  loadouts:
+  - NTR-Head
+
+- type: loadoutGroup
+  id: NTR-Neck
+  name: ПНТ, Шея
+  minLimit: 0
+  loadouts:
+  - NTR-Neck
+
+- type: loadoutGroup
+  id: NTR-Backpack
+  name: ПНТ, Рюкзак
+  minLimit: 0
+  loadouts:
+  - NTR-Backpack
+  - NTR-Satchel
+  - NTR-Duffel
+
+- type: loadoutGroup
+  id: NTR-Gloves
+  name: ПНТ, Перчатки
+  minLimit: 0
+  loadouts:
+  - NTR-BlackGloves
+  - NTR-GrayGloves
+  - NTR-WhiteGloves
+
+- type: loadoutGroup
+  id: NTR-Belt
+  name: ПНТ, Пояс
+  minLimit: 0
+  loadouts:
+  - NTR-NTR-CC-Clipboard
+
+- type: loadoutGroup
+  id: NTR-Shoes
+  name: ПНТ, Обувь
+  minLimit: 0
+  loadouts:
+  - ClothingShoesBootsJack
+  - ClothingShoesBootsLaceup

@@ -1,0 +1,26 @@
+- type: roleLoadout
+  id: NanotrasenRepresentive
+  groups:
+  - Inventory # Corvax-Loadouts
+  - NTR-Head
+  - NTR-Neck
+  - NTR-Backpack
+  - NTR-Gloves
+  - NTR-Belt
+  - NTR-Shoes
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: Blueshield
+  groups:
+  - Inventory # Corvax-Loadouts
+  - BlueshieldHead
+  - BlueshieldNeck
+  - BlueshieldBackpack
+  - BlueshieldBelt
+  - BlueshieldShoes
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool

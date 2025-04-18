@@ -1,0 +1,10 @@
+- type: department
+  id: Juridical
+  name: Юридический Департамент
+  description: оказывайте юридическую помощь обвиняемым, проводите суды и кратко - восстанавливайте правосудие!
+  color: "#634b2f"
+  weight: 30
+  roles:
+   - IAA # Corvax-IAA
+   - Lawyer
+   - Magistrat

@@ -1,0 +1,54 @@
+﻿- type: job
+  id: NanotrasenRepresentive
+  name: Представитель NanoTrasen
+  description: Представляйте NanoTrasen. Отправляйте отчеты о ситуации на станции и информируйте командование об приказах с ЦК.
+  playTimeTracker: JobNanotrasenRepresentive
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 54000 #15 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 144000 #40 hrs
+  weight: 20
+  startingGear: NanotrasenRepresentiveGear
+  icon: "JobIconNanotrasenRepresentive"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - Command
+  - Maintenance
+  - External
+  - Engineering
+  - Research
+  - Security
+  - Brig
+  - Cargo
+  - Medical
+  - NanotrasenRepresentive
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: NanotrasenRepresentiveGear
+  equipment:
+    head: ClothingHeadHatCapNtr
+    neck: ClothingNeckCloakNanotrasenRepresentive
+    back: ClothingBackpackSatchel
+    belt: BoxFolderCentComClipboard
+    gloves: ClothingHandsGlovesColorBlack
+    jumpsuit: ClothingUniformJumpsuitNTRepresentive
+    shoes: ClothingShoesBootsJack
+    eyes: ClothingEyesGlassesSunglasses
+    outerClothing: ClothingOuterArmorBasic
+    id: NanotrasenRepresentivePDA
+    ears: ClothingHeadsetAltCommand
+    pocket2: PenCentcom
+  storage:
+    back:
+    - Flash
+
+  inhand:
+    - BriefcaseBrownFilled

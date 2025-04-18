@@ -22,7 +22,10 @@
   - HeadOfSecurity
   - Quartermaster
   - ResearchDirector
-  
+  - Magistrat
+  - Blueshield
+  - NanotrasenRepresentive
+
 - type: accessLevel
   id: EmergencyShuttleRepealAll
   name: id-card-access-level-emergency-shuttle-repeal
@@ -31,3 +34,15 @@
 - type: accessLevel
   id: Cryogenics
   name: id-card-access-level-cryogenics
+
+- type: accessLevel
+  id: Blueshield
+  name: id-card-access-level-blueshield
+
+- type: accessLevel
+  id: Magistrat
+  name: id-card-access-level-magistrat
+
+- type: accessLevel
+  id: NanotrasenRepresentive
+  name: id-card-access-level-nanotrasenrepresentive

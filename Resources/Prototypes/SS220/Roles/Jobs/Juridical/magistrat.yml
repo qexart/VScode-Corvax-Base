@@ -1,0 +1,41 @@
+- type: job
+  id: Magistrat
+  name: магистрат
+  description: Страж Космического закона, основная опора в координации агентов внутренних дел и в управлении его подопечных, обеспечивайте порядок и справедливость на станции.
+  playTimeTracker: JobMagistrat
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobIAA
+      time: 54000
+  startingGear: MagistratGear
+  setPreference: true
+  icon: "JobIconMagistrat"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - Command
+  - Maintenance
+  - External
+  - Brig
+  - Security
+  - Magistrat
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: MagistratGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+    head: ClothingHeadHatPwig
+    outerClothing: ClothingOuterRobesJudge
+    shoes: ClothingShoesBootsLaceup
+    neck: ClothingNeckLawyerbadge
+    id: MagistratPDA
+    ears: ClothingHeadsetAltJuridical
+    pocket1: Flash
+  inhand:
+    - BriefcaseBrownFilled
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled

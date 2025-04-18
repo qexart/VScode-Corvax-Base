@@ -1,0 +1,59 @@
+# Civilian
+- type: entity
+  id: SpawnPointMagistrat
+  parent: SpawnPointJobBase
+  name: магистрат
+  components:
+  - type: SpawnPoint
+    job_id: Magistrat
+  - type: Sprite
+    layers:
+      - state: green
+
+- type: entity
+  id: SpawnPointLawyer
+  parent: SpawnPointJobBase
+  name: lawyer
+  components:
+  - type: SpawnPoint
+    job_id: IAA # Corvax-IAA: Lawyer replaced with IAA
+  - type: Sprite
+    layers:
+      - state: green
+      - state: lawyer
+
+# Command
+- type: entity
+  id: SpawnPointNanotrasenRepresentive
+  parent: SpawnPointJobBase
+  name: представитель NanoTrasen
+  components:
+  - type: SpawnPoint
+    job_id: NanotrasenRepresentive
+  - type: Sprite
+    layers:
+      - state: green
+
+- type: entity
+  id: SpawnPointBlueshield
+  parent: SpawnPointJobBase
+  name: офицер "Синий Щит"
+  components:
+  - type: SpawnPoint
+    job_id: Blueshield
+  - type: Sprite
+    layers:
+      - state: green
+
+# Medical
+- type: entity
+  id: SpawnPointMedicalPathologist
+  parent: SpawnPointJobBase
+  name: Job спавн Патологоаната
+  components:
+  - type: SpawnPoint
+    job_id: MedicalPathologist
+  - type: Sprite
+    layers:
+      - state: green
+      - state: doctor
