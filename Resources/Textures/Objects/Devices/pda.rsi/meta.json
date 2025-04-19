@@ -232,6 +232,18 @@
     {
       "name": "pda-seniorofficer"
     },
+    {
+      "name": "pda-patologoanatom"
+    },
+    {
+      "name": "pda-bs"
+    },
+    {
+      "name": "pda-ntr"
+    },
+    {
+      "name": "pda-magistrat"
+    },
 	{
       "name": "pda-wizard",
       "delays": [
