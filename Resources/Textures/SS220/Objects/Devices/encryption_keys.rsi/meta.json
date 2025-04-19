@@ -7,6 +7,7 @@
       "y": 32
     },
     "states": [
-      {"name": "juridical_label"}
-    ]
+    {"name": "juridical_label"},
+    {"name": "crypt_gray"}
+  ]
 }

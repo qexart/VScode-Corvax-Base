@@ -4,17 +4,17 @@
         "y": 8
     },
     "states": [
-        {
-            "name": "pathologist_ico"
-        },
-        {
-            "name": "Magistrat"
-        },
-        {
-            "name": "Blueshield"
-        },
-        {
-            "name": "NanotrasenRepresentive"
-        }
-    ]
+      {
+        "name": "pathologist_ico"
+      },
+      {
+        "name": "Magistrat"
+      },
+      {
+        "name": "Blueshield"
+      },
+      {
+        "name": "NanotrasenRepresentive"
+      }
+   ]
 }
