@@ -5,9 +5,9 @@
   description: Древняя технология, используемая для обеспечения элементарной защиты глаз. Улучшенное покрытие линз блокирует вспышки.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/bsglasses.rsi
+    sprite: SS220/Clothing/Eyes/Glasses/bsglasses.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/bsglasses.rsi
+    sprite: SS220/Clothing/Eyes/Glasses/bsglasses.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5

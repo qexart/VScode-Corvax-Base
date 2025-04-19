@@ -12,6 +12,6 @@
       - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/juridical.rsi
+    sprite: SS220/Clothing/Ears/Headsets/juridical.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/juridical.rsi
+    sprite: SS220/Clothing/Ears/Headsets/juridical.rsi

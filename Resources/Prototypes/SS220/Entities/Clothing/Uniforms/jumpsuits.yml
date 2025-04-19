@@ -5,9 +5,9 @@
   description: Черная униформа с короткими рукавами в сочетании с серыми брюками-карго с цифровым камуфляжем, все из прочного материала.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+    sprite: SS220/Clothing/Uniforms/Jumpsuit/blueshield.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+    sprite: SS220/Clothing/Uniforms/Jumpsuit/blueshield.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -21,6 +21,6 @@
   description: Черная униформа с золотистыми выделками, черными брюками и логотипом NanoTrasen - стиль бюрократии.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ntr_suit.rsi
+    sprite: SS220/Clothing/Uniforms/Jumpsuit/ntr_suit.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ntr_suit.rsi
+    sprite: SS220/Clothing/Uniforms/Jumpsuit/ntr_suit.rsi

@@ -6,9 +6,9 @@
   description: Защитный шлем с новейшим совершенно секретным программным обеспечением NT-HUD. Принадлежит Синему Щиту.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/blueshield.rsi
+    sprite: SS220/Clothing/Head/Hardsuits/blueshield.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/blueshield.rsi
+    sprite: SS220/Clothing/Head/Hardsuits/blueshield.rsi
   - type: PointLight
     color: "#adeeff"
   - type: PressureProtection

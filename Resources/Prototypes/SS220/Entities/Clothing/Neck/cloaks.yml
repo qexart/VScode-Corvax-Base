@@ -5,7 +5,7 @@
   description: Величественный темный плащ, символизирующий NanoTrasen.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/ntr.rsi
+    sprite: SS220/Clothing/Neck/Cloaks/ntr.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -14,7 +14,7 @@
   description: Клоунский плащ пропитанный шутками над СБ и верой в Хонко Мать
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/clowncloack.rsi
+    sprite: SS220/Clothing/Neck/Cloaks/clowncloack.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -23,7 +23,7 @@
   description: Этот плащ такой же молчаливый как и его владелец.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/mimecloack.rsi
+    sprite: SS220/Clothing/Neck/Cloaks/mimecloack.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -32,4 +32,4 @@
   description: Его серебрянные полосы и щит в середине даёт понять,что вы имеете дело с живым щитом.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/Shloack.rsi
+    sprite: SS220/Clothing/Neck/Cloaks/Shloack.rsi

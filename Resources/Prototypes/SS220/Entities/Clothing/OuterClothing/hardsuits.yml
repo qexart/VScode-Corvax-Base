@@ -5,9 +5,9 @@
   description: Специальный скафандр, защищающий от опасной среды и низкого давления. Имеет дополнительный слой брони.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/blueshield.rsi
+    sprite: SS220/Clothing/OuterClothing/Hardsuits/blueshield.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/blueshield.rsi
+    sprite: SS220/Clothing/OuterClothing/Hardsuits/blueshield.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 10000

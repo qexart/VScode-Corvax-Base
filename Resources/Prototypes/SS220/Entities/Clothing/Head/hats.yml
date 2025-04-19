@@ -5,9 +5,9 @@
   description: Шикарная, стильная фуражка представителя NanoTrasen.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/capntr.rsi
+    sprite: SS220/Clothing/Head/Hats/capntr.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/capntr.rsi
+    sprite: SS220/Clothing/Head/Hats/capntr.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -21,9 +21,9 @@
   description: Темно-синий берет, украшенный щитом — серебряным воздушным змеем с выгравированным мечом — службы безопасности Нанотрейзен, объявляющим миру, что его владелец является защитником Нанотрейзен.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_navyblue.rsi
+    sprite: SS220/Clothing/Head/Hats/beret_navyblue.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_navyblue.rsi
+    sprite: SS220/Clothing/Head/Hats/beret_navyblue.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -32,6 +32,6 @@
   description: Черная шапочка пропитанная запахом гнили
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/pathologist_helmet.rsi
+    sprite: SS220/Clothing/Head/Hats/pathologist_helmet.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/pathologist_helmet.rsi
+    sprite: SS220/Clothing/Head/Hats/pathologist_helmet.rsi
