@@ -32,7 +32,7 @@
   name: ID карта офицера "Синий Щит"
   components:
   - type: Sprite
-    spite: SS220/Objects/Misc/id_cards.rsi
+    spite: Textures/SS220/Objects/Misc/id_cards.rsi
     layers:
     - state: silver
     - state: idblueshield

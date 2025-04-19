@@ -1,6 +1,6 @@
 - type: emote
   id: Meow
-  name: chat-emote-name-meow
+  name: мяукнул!
   available: false
   whitelist:
     components:
@@ -8,7 +8,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [chat-emote-msg-meow]
+  chatMessages: [мяукнул!]
   chatTriggers:
     - мяу
     - мяукнул
@@ -23,7 +23,7 @@
 
 - type: emote
   id: Mew
-  name: chat-emote-name-mew
+  name: мявкнул!
   available: false
   whitelist:
     components:
@@ -31,7 +31,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [chat-emote-msg-mew]
+  chatMessages: [мявкнул!]
   chatTriggers:
     - мя
     - мякает
@@ -46,7 +46,7 @@
 
 - type: emote
   id: Purr
-  name: chat-emote-name-purr
+  name: мурчит!
   available: false
   whitelist:
     components:
@@ -54,7 +54,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [chat-emote-msg-purr]
+  chatMessages: [мурчит!]
   chatTriggers:
     - мур
     - мурчит

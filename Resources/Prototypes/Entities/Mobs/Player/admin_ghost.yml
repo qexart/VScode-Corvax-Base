@@ -4,6 +4,12 @@
   name: admin observer
   categories: [ HideSpawnMenu ]
   components:
+  - type: Sprite
+    sprite: SS220/Mobs/Ghosts/ghost_admin.rsi
+    color: "#fff8"
+    layers:
+    - state: animated
+      shader: unshaded
   - type: ContentEye
     maxZoom: 8.916104, 8.916104
   - type: Tag
