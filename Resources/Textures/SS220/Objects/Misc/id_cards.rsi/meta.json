@@ -7,17 +7,23 @@
       "y": 32
     },
     "states": [
-        {
-          "name": "idpatologoanatom"
-        },
-        {
-          "name": "idblueshield"
-        },
-        {
-          "name": "idntr"
-        },
-        {
-          "name": "idmagistrat"
-        }
-    ]
+    {
+      "name": "default"
+    },
+    {
+      "name": "idpatologoanatom"
+    },
+    {
+      "name": "idblueshield"
+    },
+    {
+      "name": "idntr"
+    },
+    {
+      "name": "idmagistrat"
+    },
+    {
+      "name": "silver"
+    }
+  ]
 }

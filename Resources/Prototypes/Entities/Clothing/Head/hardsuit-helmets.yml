@@ -719,6 +719,15 @@
       visible: false
       shader: unshaded
       map: [ "light" ]
+  - type: ToggleableLightVisuals
+    spriteLayer: light
+    clothingVisuals:
+      head:
+      - state: equipped-head-flash
+        shader: unshaded
+      head-vox:
+      - state: equipped-head-flash
+        shader: unshaded
   - type: Clothing
     clothingVisuals:
       head:
@@ -726,7 +735,9 @@
       - state: equipped-head-unshaded
         shader: unshaded
   - type: PointLight
-    color: orange # Corvax-Resprite
+    color: "#5cc0e1"
+    radius: 7
+    energy: 3
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000

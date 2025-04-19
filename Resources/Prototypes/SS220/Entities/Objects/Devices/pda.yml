@@ -5,22 +5,22 @@
   suffix: Magistrat
   description: Изможденный временем, влагает в себя аромат закона и судебной власти.
   components:
-  - type: Pda
-    id: MagistratIDCard
-    sprite: SS220/Objects/Devices/pda.rsi
-    state: pda-magistrat
-    penSlot:
-      startingItem: LuxuryPen
-      priority: -1
-      whitelist:
-        tags:
-        - Write
-  - type: PdaBorderColor
-    borderColor: "#6f6192"
-    accentVColor: "#DFDFDF"
-  - type: Icon
-    sprite: SS220/Objects/Devices/pda.rsi
-    state: pda-magistrat
+   - type: Pda
+     id: MagistratIDCard
+     sprite: SS220/Objects/Devices/pda.rsi
+     state: pda-magistrat
+     penSlot:
+       startingItem: LuxuryPen
+       priority: -1
+       whitelist:
+         tags:
+         - Write
+   - type: PdaBorderColor
+     borderColor: "#6f6192"
+     accentVColor: "#DFDFDF"
+   - type: Icon
+     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     state: pda-magistrat
 
 - type: entity
   parent: BasePDA
@@ -29,13 +29,13 @@
   suffix: Nanotrasen Representive
   description: Представляет вашу идею.
   components:
-  - type: Pda
-    id: NanotrasenRepresentiveIDCard
-    sprite: SS220/Objects/Devices/pda.rsi
-    state: pda-ntr
-  - type: Icon
-    sprite: SS220/Objects/Devices/pda.rsi
-    state: pda-ntr
+   - type: Pda
+     id: NanotrasenRepresentiveIDCard
+     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     state: pda-ntr
+   - type: Icon
+     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     state: pda-ntr
 
 - type: entity
   parent: BasePDA
@@ -44,13 +44,13 @@
   suffix: Blueshield
   description: Почему он не синий?
   components:
-  - type: Pda
-    id: BlueshieldIDCard
-    sprite: SS220/Objects/Devices/pda.rsi
-    state: pda-bs
-  - type: Icon
-    sprite: SS220/Objects/Devices/pda.rsi
-    state: pda-bs
+   - type: Pda
+     id: BlueshieldIDCard
+     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     state: pda-bs
+   - type: Icon
+     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     state: pda-bs
 
 - type: entity
   parent: BaseMedicalPDA
@@ -59,10 +59,10 @@
   suffix: Pathologist
   description: А сколько ты, открыл "подарков" сегодня?
   components:
-  - type: Pda
-    id: PathologistIDCard
-    sprite: SS220/Objects/Devices/pda.rsi
-    state: pda-patologoanatom
-  - type: Icon
-    sprite: SS220/Objects/Devices/pda.rsi
-    state: pda-patologoanatom
+   - type: Pda
+     id: PathologistIDCard
+     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     state: pda-patologoanatom
+   - type: Icon
+     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     state: pda-patologoanatom

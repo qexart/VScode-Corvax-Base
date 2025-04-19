@@ -2,7 +2,7 @@
   parent: JobIcon
   id: JobIconMagistrat
   icon:
-    sprite: SS220/Interface/Misc/job_icons.rsi
+    sprite: Textures/SS220/Interface/Misc/job_icons.rsi
     state: Magistrat
   jobName: магистрат
 
@@ -10,7 +10,7 @@
   parent: JobIcon
   id: JobIconBlueshield
   icon:
-    sprite: SS220/Interface/Misc/job_icons.rsi
+    sprite: Textures/SS220/Interface/Misc/job_icons.rsi
     state: Blueshield
   jobName: офицер "Синий Щит"
 
@@ -18,7 +18,7 @@
   parent: JobIcon
   id: JobIconNanotrasenRepresentive
   icon:
-    sprite: SS220/Interface/Misc/job_icons.rsi
+    sprite: Textures/SS220/Interface/Misc/job_icons.rsi
     state: NanotrasenRepresentive
   jobName: представитель NanoTrasen
 
@@ -26,6 +26,6 @@
   parent: JobIcon
   id: JobIconPathologist
   icon:
-    sprite: SS220/Interface/Misc/job_icons.rsi
+    sprite: Textures/SS220/Interface/Misc/job_icons.rsi
     state: pathologist_ico
   jobName: патологоанатом
