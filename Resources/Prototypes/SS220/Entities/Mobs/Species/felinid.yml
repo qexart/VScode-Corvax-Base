@@ -8,7 +8,7 @@
   - type: OwOAccent
   - type: Speech
     speechVerb: Felinid
-    allowedEmotes: ['Mew', 'Meow', 'Hisses', 'Purr']
+    allowedEmotes: ['Mew', 'Meow', 'Purr']
   - type: Vocal
     sounds:
       Male: MaleFelinid

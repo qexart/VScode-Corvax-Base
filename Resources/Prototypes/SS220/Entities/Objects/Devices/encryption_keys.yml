@@ -9,6 +9,7 @@
     - Juridical
     defaultChannel: Juridical
   - type: Sprite
+    sprite: SS220/Objects/Devices/encryption_keys.rsi
     layers:
     - state: crypt_gray
     - state: juridical_label
