@@ -2,35 +2,35 @@
 - type: soundCollection
   id: FelinidScreams
   files:
-  - SS220/Audio/Voice/Felinid/cat_scream1.ogg
-  - SS220/Audio/Voice/Felinid/cat_scream2.ogg
-  - SS220/Audio/Voice/Felinid/cat_scream3.ogg
+  - /SS220/Audio/Voice/Felinid/cat_scream1.ogg
+  - /SS220/Audio/Voice/Felinid/cat_scream2.ogg
+  - /SS220/Audio/Voice/Felinid/cat_scream3.ogg
 
 - type: soundCollection
   id: FelinidHisses
   files:
-  - SS220/Audio/Voice/Felinid/cat_hiss1.ogg
-  - SS220/Audio/Voice/Felinid/cat_hiss2.ogg
+  - /SS220/Audio/Voice/Felinid/cat_hiss1.ogg
+  - /SS220/Audio/Voice/Felinid/cat_hiss2.ogg
 
 - type: soundCollection
   id: FelinidMeows
   files:
-  - SS220/Audio/Voice/Felinid/cat_meow1.ogg
-  - SS220/Audio/Voice/Felinid/cat_meow2.ogg
-  - SS220/Audio/Voice/Felinid/cat_meow3.ogg
+  - /SS220/Audio/Voice/Felinid/cat_meow1.ogg
+  - /SS220/Audio/Voice/Felinid/cat_meow2.ogg
+  - /SS220/Audio/Voice/Felinid/cat_meow3.ogg
 
 - type: soundCollection
   id: FelinidMews
   files:
-  - SS220/Audio/Voice/Felinid/cat_mew1.ogg
-  - SS220/Audio/Voice/Felinid/cat_mew2.ogg
+  - /SS220/Audio/Voice/Felinid/cat_mew1.ogg
+  - /SS220/Audio/Voice/Felinid/cat_mew2.ogg
 
 - type: soundCollection
   id: FelinidGrowls
   files:
-  - SS220/Audio/Voice/Felinid/cat_growl1.ogg
+  - /SS220/Audio/Voice/Felinid/cat_growl1.ogg
 
 - type: soundCollection
   id: FelinidPurrs
   files:
-  - SS220/Audio/Voice/Felinid/cat_purr1.ogg
+  - /SS220/Audio/Voice/Felinid/cat_purr1.ogg

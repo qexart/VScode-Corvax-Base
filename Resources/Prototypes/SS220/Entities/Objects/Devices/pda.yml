@@ -7,7 +7,7 @@
   components:
    - type: Pda
      id: MagistratIDCard
-     sprite: SS220/Objects/Devices/pda.rsi
+     sprite: /Textures/SS220/Objects/Devices/pda.rsi
      state: pda-magistrat
      penSlot:
        startingItem: LuxuryPen
@@ -19,7 +19,7 @@
      borderColor: "#6f6192"
      accentVColor: "#DFDFDF"
    - type: Icon
-     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     sprite: /Textures/SS220/Objects/Devices/pda.rsi
      state: pda-magistrat
 
 - type: entity
@@ -31,10 +31,10 @@
   components:
    - type: Pda
      id: NanotrasenRepresentiveIDCard
-     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     sprite: /Textures/SS220/Objects/Devices/pda.rsi
      state: pda-ntr
    - type: Icon
-     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     sprite: /Textures/SS220/Objects/Devices/pda.rsi
      state: pda-ntr
 
 - type: entity
@@ -46,10 +46,10 @@
   components:
    - type: Pda
      id: BlueshieldIDCard
-     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     sprite: /Textures/SS220/Objects/Devices/pda.rsi
      state: pda-bs
    - type: Icon
-     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     sprite: /Textures/SS220/Objects/Devices/pda.rsi
      state: pda-bs
 
 - type: entity
@@ -61,8 +61,8 @@
   components:
    - type: Pda
      id: PathologistIDCard
-     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     sprite: /Textures/SS220/Objects/Devices/pda.rsi
      state: pda-patologoanatom
    - type: Icon
-     sprite: Textures/SS220/Objects/Devices/pda.rsi
+     sprite: /Textures/SS220/Objects/Devices/pda.rsi
      state: pda-patologoanatom

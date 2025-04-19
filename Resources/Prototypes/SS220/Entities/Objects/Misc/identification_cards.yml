@@ -4,7 +4,7 @@
   name: ID карта магистрата
   components:
    - type: Sprite
-     sprite: Textures/SS220/Objects/Misc/id_cards.rsi
+     sprite: /Textures/SS220/Objects/Misc/id_cards.rsi
      layers:
      - state: silver
      - state: idmagistrat
@@ -20,7 +20,7 @@
   name: ID карта представителя NanoTrasen
   components:
    - type: Sprite
-     sprite: Textures/SS220/Objects/Misc/id_cards.rsi
+     sprite: /Textures/SS220/Objects/Misc/id_cards.rsi
      layers:
      - state: silver
      - state: idntr
@@ -36,7 +36,7 @@
   name: ID карта офицера "Синий Щит"
   components:
    - type: Sprite
-     spite: Textures/SS220/Objects/Misc/id_cards.rsi
+     spite: /Textures/SS220/Objects/Misc/id_cards.rsi
      layers:
      - state: silver
      - state: idblueshield
@@ -52,7 +52,7 @@
   name: ID Карта патологоанатом
   components:
    - type: Sprite
-     sprite: Textures/SS220/Objects/Misc/id_cards.rsi
+     sprite: /Textures/SS220/Objects/Misc/id_cards.rsi
      layers:
      - state: default
      - state: idpatologoanatom
