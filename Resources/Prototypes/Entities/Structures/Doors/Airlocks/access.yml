@@ -442,8 +442,8 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockBlueshield
-  suffix: Blueshield
+  id: AirlockBlueshieldLocked
+  suffix: Blueshield, Locked
   components:
   - type: ContainerFill
     containers:
