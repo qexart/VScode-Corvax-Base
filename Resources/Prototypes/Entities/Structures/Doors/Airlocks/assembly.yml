@@ -80,6 +80,24 @@
     sprite: Structures/Doors/Airlocks/Glass/command.rsi
     state: "assembly"
 
+- type: entity
+  parent: AirlockAssembly
+  id: AirlockAssemblyBlueshield
+  suffix: Blueshield
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/blueshield.rsi
+    state: "assembly"
+
+- type: entity
+  parent: AirlockAssembly
+  id: AirlockAssemblyBlueshieldGlass
+  suffix: Blueshield, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/blueshield.rsi
+    state: "assembly"
+
 #Engineering
 - type: entity
   parent: AirlockAssembly

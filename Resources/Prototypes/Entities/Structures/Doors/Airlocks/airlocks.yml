@@ -313,4 +313,12 @@
   suffix: Blueshield
   components:
   - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standart/blueshield.rsi
+
+- type: entity
+  parent: AirlockCommandGlass
+  id: AirlockBlueshieldGlass
+  suffix: Blueshield
+  components:
+  - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/blueshield.rsi

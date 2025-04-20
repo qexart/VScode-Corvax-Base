@@ -850,6 +850,15 @@
     containers:
       board: [ DoorElectronicsNukeop ]
 
+- type: entity
+  parent: AirlockCommandGlass
+  id: AirlockBlueshieldGlassLocked
+  suffix: Blueshield, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlueshield ]
+
 # Maintenance Hatches
 - type: entity
   parent: AirlockMaint
