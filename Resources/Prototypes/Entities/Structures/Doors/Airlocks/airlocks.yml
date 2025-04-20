@@ -166,6 +166,22 @@
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hatch_maint.rsi
 
+- type: entity
+  parent: AirlockCommand
+  id: AirlockBlueshield
+  suffix: Blueshield
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standart/blueshield.rsi
+
+- type: entity
+  parent: Airlock
+  id: AirlockJuridical
+  suffix: Juridical
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standart/juridical.rsi
+
 # Glass
 - type: entity
   parent: AirlockGlass
@@ -308,17 +324,17 @@
     sprite: Structures/Doors/Airlocks/Glass/centcomm.rsi
 
 - type: entity
-  parent: AirlockCommand
-  id: AirlockBlueshield
-  suffix: Blueshield
-  components:
-  - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standart/blueshield.rsi
-
-- type: entity
   parent: AirlockCommandGlass
   id: AirlockBlueshieldGlass
   suffix: Blueshield
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/blueshield.rsi
+
+- type: entity
+  parent: Airlock
+  id: AirlockJuridicalGlass
+  suffix: Juridical
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standart/juridical.rsi

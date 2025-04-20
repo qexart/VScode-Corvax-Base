@@ -451,6 +451,17 @@
   - type: Wires
     layoutId: AirlockBlueshield
 
+- type: entity
+  parent: Airlock
+  id: AirlockJuridicalLocked
+  suffix: Juridical, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLawyer ]
+  - type: Wires
+    layoutId: AirlockJuridical
+
 # Glass Airlocks
 - type: entity
   parent: AirlockGlass
@@ -862,6 +873,17 @@
       board: [ DoorElectronicsBlueshield ]
   - type: Wires
     layoutId: AirlockBlueshieldGlass
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockJuridicalLocked
+  suffix: Juridical, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLawyer ]
+  - type: Wires
+    layoutId: AirlockJuridicalGlass
 
 # Maintenance Hatches
 - type: entity
