@@ -23,6 +23,14 @@
   - type: AccessReader
     access: [["Command"]]
 
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlueshield
+  suffix: Blueshield, Locked
+  components:
+  - type: AccessReader
+    access: [["Blueshield"], ["Captain"]]
+
 # Service
 - type: entity
   parent: DoorElectronics

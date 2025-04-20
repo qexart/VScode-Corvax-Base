@@ -7,6 +7,7 @@
     cargo:       Structures/Doors/Airlocks/Standard/cargo.rsi
     chemistry:   Structures/Doors/Airlocks/Standard/chemistry.rsi
     command:     Structures/Doors/Airlocks/Standard/command.rsi
+    blueshield:  Structures/Doors/Airlocks/Standard/blueshield.rsi
     engineering: Structures/Doors/Airlocks/Standard/engineering.rsi
     freezer:     Structures/Doors/Airlocks/Standard/freezer.rsi
     hydroponics: Structures/Doors/Airlocks/Standard/hydroponics.rsi

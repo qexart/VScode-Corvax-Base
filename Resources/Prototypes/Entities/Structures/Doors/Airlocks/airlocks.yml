@@ -306,3 +306,11 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/centcomm.rsi
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockBlueshield
+  suffix: Blueshield
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/blueshield.rsi

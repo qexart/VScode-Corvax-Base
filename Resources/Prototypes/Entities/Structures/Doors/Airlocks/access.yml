@@ -440,6 +440,15 @@
     containers:
       board: [ DoorElectronicsExternal ]
 
+- type: entity
+  parent: AirlockCommand
+  id: AirlockBlueshield
+  suffix: Blueshield
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlueshield ]
+
 # Glass Airlocks
 - type: entity
   parent: AirlockGlass
