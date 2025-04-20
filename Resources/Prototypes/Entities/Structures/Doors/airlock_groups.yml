@@ -16,6 +16,7 @@
     science:     Structures/Doors/Airlocks/Standard/science.rsi
     security:    Structures/Doors/Airlocks/Standard/security.rsi
     virology:    Structures/Doors/Airlocks/Standard/virology.rsi
+    juridical:   Structures/Doors/Airlocks/Standard/juridical.rsi
 
 - type: AirlockGroup
   id: Glass
@@ -25,6 +26,7 @@
     basic:       Structures/Doors/Airlocks/Glass/basic.rsi
     cargo:       Structures/Doors/Airlocks/Glass/cargo.rsi
     command:     Structures/Doors/Airlocks/Glass/command.rsi
+    blueshield:  Structures/Doors/Airlocks/Glass/blueshield.rsi
     chemistry:   Structures/Doors/Airlocks/Glass/chemistry.rsi
     science:     Structures/Doors/Airlocks/Glass/science.rsi
     engineering: Structures/Doors/Airlocks/Glass/engineering.rsi
@@ -34,6 +36,7 @@
     medical:     Structures/Doors/Airlocks/Glass/medical.rsi
     security:    Structures/Doors/Airlocks/Glass/security.rsi
     virology:    Structures/Doors/Airlocks/Glass/virology.rsi
+    juridical:   Structures/Doors/Airlocks/Glass/juridical.rsi
 
 - type: AirlockGroup
   id: Windoor
