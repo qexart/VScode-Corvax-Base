@@ -476,8 +476,22 @@
   components:
   - type: Appearance
   - type: AccessReader
-    access: [["Command"]]
+    access: [["NanotrasenRepresentive"]]
   - type: EntityStorageVisuals
-    stateBaseClosed: hop
-    stateDoorOpen: hop_open
+    stateBaseClosed: representative
+    stateDoorOpen: representative_open
     stateDoorClosed: representative_door
+
+# Blueshield
+- type: entity
+  id: LockerBlueshield
+  name: шкаф офицера "Синий Щит"
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: AccessReader
+    access: [["Blueshield"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: blueshield
+    stateDoorOpen: blueshield_open
+    stateDoorClosed: blueshield_door

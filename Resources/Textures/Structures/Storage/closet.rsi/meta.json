@@ -561,6 +561,21 @@
     },
     {
       "name": "representative_door"
+    },
+    {
+      "name": "representative_open"
+    },
+    {
+      "name": "representative"
+    },
+    {
+      "name": "blueshield_door"
+    },
+    {
+      "name": "blueshield_open"
+    },
+    {
+      "name": "blueshield"
     }
   ]
 }
