@@ -448,6 +448,8 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsBlueshield ]
+  - type: Wires
+    layoutId: AirlockBlueshield
 
 # Glass Airlocks
 - type: entity
@@ -858,6 +860,8 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsBlueshield ]
+  - type: Wires
+    layoutId: AirlockBlueshieldGlass
 
 # Maintenance Hatches
 - type: entity

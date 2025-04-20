@@ -21,6 +21,17 @@
     - id: MailTeleporterMachineCircuitboard
     - id: PrinterDocFlatpack # Corvax-Printer
 
+- type: entityTable
+  id: LockerFillNanotrasenRepresentive
+  table: !type:AllSelector
+    children:
+    - id: RubberStampNanotrasenRepresentive
+    - id: ClothingNeckCloakNanotrasenRepresentive
+    - id: ClothingHeadsetAltCommand
+    - id: WeaponDisabler
+    - id: ClothingEyesGlassesCommand
+    - id: CigarGoldCase
+
 - type: entity
   id: LockerQuarterMasterFilled
   suffix: Filled
@@ -396,3 +407,15 @@
     - id: SpaceCash1000
     - id: BeachBall
     - id: BikeHorn
+
+- type: entity
+  id: LockerRepresentativeFilled
+  suffix: Filled
+  parent: LockerRepresentative
+  components:
+  - type: AccessReader
+    access: [ [ "NanotrasenRepresentive" ] ]
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillNanotrasenRepresentive

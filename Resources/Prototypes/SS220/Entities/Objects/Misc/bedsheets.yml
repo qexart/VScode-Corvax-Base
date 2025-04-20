@@ -1,0 +1,10 @@
+- type: entity
+  id: BedsheetNanotrasenRepresentive
+  parent: BedsheetBase
+  name: одеяло представителя NanoTrasen
+  components:
+  - type: Sprite
+    sprite: SS220/Objects/Misc/bedsheets.rsi
+    state: sheet_ntr
+  - type: Clothing
+    sprite: SS220/Clothing/Neck/Bedsheets/ntr.rsi

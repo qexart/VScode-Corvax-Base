@@ -1,0 +1,13 @@
+- type: entity
+  name: печать представителя NanoTrasen
+  parent: [RubberStampBase, BaseCommandContraband]
+  id: RubberStampNanotrasenRepresentive
+  categories: [ DoNotMap ]
+  components:
+   - type: Stamp
+     stampedName: Представитель NT
+     stampedColor: "#ebb404"
+     stampState: "paper_stamp-ok"
+   - type: Sprite
+     sprite: SS220/Objects/Misc/stamps.rsi
+     state: stamp-ntr
