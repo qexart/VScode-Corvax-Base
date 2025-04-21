@@ -441,7 +441,7 @@
       board: [ DoorElectronicsExternal ]
 
 - type: entity
-  parent: AirlockCommand
+  parent: AirlockBlueshield
   id: AirlockBlueshieldLocked
   suffix: Blueshield, Locked
   components:
@@ -452,7 +452,7 @@
     layoutId: AirlockBlueshield
 
 - type: entity
-  parent: Airlock
+  parent: AirlockJuridical
   id: AirlockJuridicalLocked
   suffix: Juridical, Locked
   components:
@@ -864,7 +864,7 @@
       board: [ DoorElectronicsNukeop ]
 
 - type: entity
-  parent: AirlockCommandGlass
+  parent: AirlockBlueshieldGlass
   id: AirlockBlueshieldGlassLocked
   suffix: Blueshield, Locked
   components:
@@ -875,7 +875,7 @@
     layoutId: AirlockBlueshieldGlass
 
 - type: entity
-  parent: AirlockGlass
+  parent: AirlockJuridicalGlass
   id: AirlockJuridicalLocked
   suffix: Juridical, Locked
   components:

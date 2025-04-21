@@ -169,7 +169,7 @@
 - type: entity
   parent: Airlock
   id: AirlockBlueshield
-  suffix: Blueshield
+  name: шлюз [Синий Щит]
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standart/blueshield.rsi
@@ -179,7 +179,7 @@
 - type: entity
   parent: Airlock
   id: AirlockJuridical
-  suffix: Juridical
+  name: шлюз [Юридический]
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standart/juridical.rsi
@@ -343,6 +343,6 @@
   suffix: Juridical
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standart/juridical.rsi
+    sprite: Structures/Doors/Airlocks/Glass/juridical.rsi
   - type: Wires
     layoutId: AirlockJuridical
