@@ -29,8 +29,11 @@
             Janitor: [ 2, 3 ]
             Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
-            #Lawyer: [ 2, 2 ] # Corvax-IAA
+            Lawyer: [ 2, 2 ] # Corvax-IAA
             ServiceWorker: [ 1, 1 ]
+            NanotrasenRepresentive: [ 1, 1 ]
+            Blueshield: [ 1, 1 ]
+            Magistrat: [ 1, 1 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 2, 2 ]
