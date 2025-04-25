@@ -188,10 +188,32 @@
     state: felinid_tail
 
 - type: marking
-  id: FelinidTails
+  id: FelinidTails [9]
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
   sprites:
   - sprite: SS220/Mobs/Customization/Felinid/felinid_tails.rsi
-    state: felinid_tail_prosto
+    state: felinid_tail_pair
+
+- type: marking
+  id: FelinidTails [8]
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Felinid]
+  sprites:
+  - sprite: SS220/Mobs/Customization/Felinid/felinid_tails.rsi
+    state: felinid_tail_pair
+  - sprite: SS220/Mobs/Customization/Felinid/felinid_tails.rsi
+    state: felinid_tail_pair_second
+
+- type: marking
+  id: FelinidTails [7]
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Felinid]
+  sprites:
+  - sprite: SS220/Mobs/Customization/Felinid/felinid_tails.rsi
+    state: felinid_tail_pair
+  - sprite: SS220/Mobs/Customization/Felinid/felinid_tails.rsi
+    state: felinid_tail_pair_striped
