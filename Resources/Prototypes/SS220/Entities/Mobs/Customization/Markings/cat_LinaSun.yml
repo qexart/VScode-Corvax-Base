@@ -188,7 +188,7 @@
     state: felinid_tail
 
 - type: marking
-  id: FelinidTails [9]
+  id: FelinidTailsPair
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
@@ -209,7 +209,7 @@
     state: felinid_tail_pair
 
 - type: marking
-  id: FelinidTails [8]
+  id: FelinidTailsPairSecond
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
@@ -232,7 +232,7 @@
     state: felinid_tail_pair_second
 
 - type: marking
-  id: FelinidTails [7]
+  id: FelinidTailsPairStriped
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
